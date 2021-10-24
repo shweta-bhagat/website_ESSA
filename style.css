@@ -1,0 +1,133 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins',serif;
+}
+
+.owl{
+    font-family: 'Poppins', sans-serif;
+    background: hsl(0, 0, 94%);
+}
+
+.card-img-top{
+    height: 280px;
+}
+ 
+
+
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+ .nav-link,.navbar-brand{
+   font-size: x-large;
+   font-weight: bold;
+   font-family: serif;
+   color: rgba(23, 8, 194, 0.527);
+  
+ }
+  a{
+    text-align: center;
+    font-size: large;
+    font-style: initial;
+    font-weight: bold;
+    color: rgba(57, 11, 165, 0.829);
+  }
+  .lead{
+    font-size: xx-large;
+    font-weight: bold;
+    
+  }
+  .sub-lead{
+    font-size:large;
+    font-style: initial;
+    font-weight: bold;
+    color: rgba(44, 42, 68, 0.623);
+    text-align: center;
+  }
+  .ssgmce{
+    size: smaller;
+    font-size: smaller;
+    height: 3rem;
+  }
+  .titiles{
+    color:rgba(2, 2, 92, 0.918);
+    text-align: center;
+    font-weight: bolder;
+    font-family:fantasy; 
+  }
+  .s2{
+    text-align: start;
+  }
+  .sub-title{
+    color: rgba(28, 22, 58, 0.842);
+    font-family: sans-serif;
+    font-style:inherit;
+    font-size: xx-large;
+  }
+.para1{
+  font-size: large;
+  color: rgba(77, 77, 90, 0.623);
+  font-family: sans-serif;
+  
+}  
+.insta{
+  color: crimson;
+}
+/* .carousel-item{
+  height: 60rem;
+  text-align: center;
+  } 
+.carousel,.slides{
+  height: 40rem;
+
+} */
+/* #Gallery{
+  height: 40rem;
+}
+.carousel-inner{
+  height: 30rem;
+} */
+.carousel-control-prev-icon{
+  color: blue;
+} 
+.face{
+  color: blue;
+}
+.Mentors{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly ;
+  
+}
+.logo-img{
+  margin-top: 2rem;
+}
+.essa-name{
+  font-size: large;
+}
+
+.mm{
+  font-size: large;
+  color: rgba(77, 77, 90, 0.623);
+  font-family: sans-serif;
+  font-weight: bolder;
+}
